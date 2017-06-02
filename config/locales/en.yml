@@ -1,4 +1,5 @@
 "en":
+  hello: "Hello, %{name}."
   event_list: Event List
   admin:
     event_list: Admin Event List
