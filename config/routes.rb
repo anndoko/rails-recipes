@@ -4,7 +4,8 @@ Rails.application.routes.draw do
   get "/faq" => "pages#faq"
 
   devise_for :users
-
+  resource :user
+  
   resources :events
 
   namespace :admin do
