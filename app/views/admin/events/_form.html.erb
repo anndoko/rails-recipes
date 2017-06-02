@@ -19,3 +19,9 @@
   <%= f.label :description %>
   <%= f.text_area :description, :class => "form-control" %>
 </div>
+
+<div class="form-group">
+  <%= f.label :friendly_id %>
+  <%= f.text_field :friendly_id, :required => true, :class => "form-control" %>
+  <p class="help-block">小寫英文、數字、橫線，將作為網址的一部份。</p>
+</div>
