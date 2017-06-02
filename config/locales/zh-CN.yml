@@ -3,3 +3,10 @@
   event_list: 活動列表
   admin:
     event_list: 活動管理列表
+
+
+  activerecord:
+    attributes:
+      event:
+        name: 活動名稱
+        description: 描述
