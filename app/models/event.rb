@@ -11,6 +11,10 @@ class Event < ApplicationRecord
     self.friendly_id
   end
 
+  # 狀態選項 & 驗證
+  STATUS = ["draft", "public", "private"]
+  validates_inclusion_of :status, :in => STATUS
+
   protected
 
   def generate_friendly_id

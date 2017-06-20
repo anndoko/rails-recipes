@@ -4,6 +4,11 @@
   admin:
     event_list: 活動管理列表
 
+  event:
+    status:
+      draft: 草稿
+      public: 公開
+      private: 私密
 
   activerecord:
     attributes:
